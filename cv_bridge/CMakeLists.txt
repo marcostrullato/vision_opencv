@@ -13,7 +13,7 @@ if(NOT ANDROID)
 else()
 find_package(Boost REQUIRED)
 endif()
-find_package(OpenCV 3 REQUIRED
+find_package(OpenCV 3 REQUIRED PATHS "/opt/opencv/3.4.0"
   COMPONENTS
     opencv_core
     opencv_imgproc
